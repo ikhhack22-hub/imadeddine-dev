@@ -1,0 +1,27 @@
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  left: 0;
+  height: 40px;
+  font-family: 'Orbitron' , sans-serif;
+
+}
+.buttons {
+  height: 40px;
+  flex: 1;
+  background-color: #10152B;
+  border-color: #6A00F4;
+  margin: 6px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #c8c6ff;
+  font-family: 'Orbitron' , sans-serif;
+  
+}
+.buttons:hover {
+  background-color: #1A1F3D;
+  cursor: pointer;
+
+}
